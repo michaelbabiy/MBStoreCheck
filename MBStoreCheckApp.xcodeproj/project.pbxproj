@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C0CA27193D501D00CD7A7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0CA26193D501D00CD7A7B /* main.m */; };
+		48C0CA2A193D501D00CD7A7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0CA29193D501D00CD7A7B /* AppDelegate.m */; };
+		48C0CA2C193D501D00CD7A7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C0CA2B193D501D00CD7A7B /* Images.xcassets */; };
+		48C0CA38193D501D00CD7A7B /* MBStoreCheckAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0CA37193D501D00CD7A7B /* MBStoreCheckAppTests.m */; };
+		48C0CA45193D503800CD7A7B /* MBStoreCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0CA44193D503800CD7A7B /* MBStoreCheck.m */; };
+		48C0CA48193D510700CD7A7B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0CA47193D510700CD7A7B /* HomeViewController.m */; };
+		48C0CA4B193D516900CD7A7B /* iPhone568.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C0CA4A193D516900CD7A7B /* iPhone568.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C0CA32193D501D00CD7A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C0CA19193D501D00CD7A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C0CA20193D501D00CD7A7B;
+			remoteInfo = MBStoreCheckApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C0CA21193D501D00CD7A7B /* MBStoreCheckApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBStoreCheckApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C0CA25193D501D00CD7A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C0CA26193D501D00CD7A7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C0CA28193D501D00CD7A7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48C0CA29193D501D00CD7A7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48C0CA2B193D501D00CD7A7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48C0CA31193D501D00CD7A7B /* MBStoreCheckAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBStoreCheckAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C0CA36193D501D00CD7A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C0CA37193D501D00CD7A7B /* MBStoreCheckAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBStoreCheckAppTests.m; sourceTree = "<group>"; };
+		48C0CA43193D503800CD7A7B /* MBStoreCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStoreCheck.h; sourceTree = "<group>"; };
+		48C0CA44193D503800CD7A7B /* MBStoreCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStoreCheck.m; sourceTree = "<group>"; };
+		48C0CA46193D510700CD7A7B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		48C0CA47193D510700CD7A7B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		48C0CA4A193D516900CD7A7B /* iPhone568.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone568.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C0CA1E193D501D00CD7A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C0CA2E193D501D00CD7A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C0CA18193D501D00CD7A7B = {
+			isa = PBXGroup;
+			children = (
+				48C0CA23193D501D00CD7A7B /* MBStoreCheckApp */,
+				48C0CA34193D501D00CD7A7B /* MBStoreCheckAppTests */,
+				48C0CA22193D501D00CD7A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C0CA22193D501D00CD7A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA21193D501D00CD7A7B /* MBStoreCheckApp.app */,
+				48C0CA31193D501D00CD7A7B /* MBStoreCheckAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C0CA23193D501D00CD7A7B /* MBStoreCheckApp */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA41193D502400CD7A7B /* App Delegate */,
+				48C0CA42193D503800CD7A7B /* MBStoreCheck */,
+				48C0CA49193D511000CD7A7B /* View Controllers */,
+				48C0CA2B193D501D00CD7A7B /* Images.xcassets */,
+				48C0CA4A193D516900CD7A7B /* iPhone568.storyboard */,
+				48C0CA24193D501D00CD7A7B /* Supporting Files */,
+			);
+			path = MBStoreCheckApp;
+			sourceTree = "<group>";
+		};
+		48C0CA24193D501D00CD7A7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA25193D501D00CD7A7B /* Info.plist */,
+				48C0CA26193D501D00CD7A7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C0CA34193D501D00CD7A7B /* MBStoreCheckAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA37193D501D00CD7A7B /* MBStoreCheckAppTests.m */,
+				48C0CA35193D501D00CD7A7B /* Supporting Files */,
+			);
+			path = MBStoreCheckAppTests;
+			sourceTree = "<group>";
+		};
+		48C0CA35193D501D00CD7A7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA36193D501D00CD7A7B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C0CA41193D502400CD7A7B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA28193D501D00CD7A7B /* AppDelegate.h */,
+				48C0CA29193D501D00CD7A7B /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		48C0CA42193D503800CD7A7B /* MBStoreCheck */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA43193D503800CD7A7B /* MBStoreCheck.h */,
+				48C0CA44193D503800CD7A7B /* MBStoreCheck.m */,
+			);
+			path = MBStoreCheck;
+			sourceTree = "<group>";
+		};
+		48C0CA49193D511000CD7A7B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48C0CA46193D510700CD7A7B /* HomeViewController.h */,
+				48C0CA47193D510700CD7A7B /* HomeViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C0CA20193D501D00CD7A7B /* MBStoreCheckApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C0CA3B193D501D00CD7A7B /* Build configuration list for PBXNativeTarget "MBStoreCheckApp" */;
+			buildPhases = (
+				48C0CA1D193D501D00CD7A7B /* Sources */,
+				48C0CA1E193D501D00CD7A7B /* Frameworks */,
+				48C0CA1F193D501D00CD7A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBStoreCheckApp;
+			productName = MBStoreCheckApp;
+			productReference = 48C0CA21193D501D00CD7A7B /* MBStoreCheckApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C0CA30193D501D00CD7A7B /* MBStoreCheckAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C0CA3E193D501D00CD7A7B /* Build configuration list for PBXNativeTarget "MBStoreCheckAppTests" */;
+			buildPhases = (
+				48C0CA2D193D501D00CD7A7B /* Sources */,
+				48C0CA2E193D501D00CD7A7B /* Frameworks */,
+				48C0CA2F193D501D00CD7A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C0CA33193D501D00CD7A7B /* PBXTargetDependency */,
+			);
+			name = MBStoreCheckAppTests;
+			productName = MBStoreCheckAppTests;
+			productReference = 48C0CA31193D501D00CD7A7B /* MBStoreCheckAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C0CA19193D501D00CD7A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Babiy";
+				TargetAttributes = {
+					48C0CA20193D501D00CD7A7B = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = VV4VQB3X2M;
+					};
+					48C0CA30193D501D00CD7A7B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 48C0CA20193D501D00CD7A7B;
+					};
+				};
+			};
+			buildConfigurationList = 48C0CA1C193D501D00CD7A7B /* Build configuration list for PBXProject "MBStoreCheckApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48C0CA18193D501D00CD7A7B;
+			productRefGroup = 48C0CA22193D501D00CD7A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C0CA20193D501D00CD7A7B /* MBStoreCheckApp */,
+				48C0CA30193D501D00CD7A7B /* MBStoreCheckAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C0CA1F193D501D00CD7A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C0CA2C193D501D00CD7A7B /* Images.xcassets in Resources */,
+				48C0CA4B193D516900CD7A7B /* iPhone568.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C0CA2F193D501D00CD7A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C0CA1D193D501D00CD7A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C0CA2A193D501D00CD7A7B /* AppDelegate.m in Sources */,
+				48C0CA27193D501D00CD7A7B /* main.m in Sources */,
+				48C0CA45193D503800CD7A7B /* MBStoreCheck.m in Sources */,
+				48C0CA48193D510700CD7A7B /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C0CA2D193D501D00CD7A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C0CA38193D501D00CD7A7B /* MBStoreCheckAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C0CA33193D501D00CD7A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C0CA20193D501D00CD7A7B /* MBStoreCheckApp */;
+			targetProxy = 48C0CA32193D501D00CD7A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48C0CA39193D501D00CD7A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48C0CA3A193D501D00CD7A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C0CA3C193D501D00CD7A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MBStoreCheckApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		48C0CA3D193D501D00CD7A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MBStoreCheckApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		48C0CA3F193D501D00CD7A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBStoreCheckApp.app/MBStoreCheckApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBStoreCheckAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		48C0CA40193D501D00CD7A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBStoreCheckApp.app/MBStoreCheckApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBStoreCheckAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C0CA1C193D501D00CD7A7B /* Build configuration list for PBXProject "MBStoreCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C0CA39193D501D00CD7A7B /* Debug */,
+				48C0CA3A193D501D00CD7A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C0CA3B193D501D00CD7A7B /* Build configuration list for PBXNativeTarget "MBStoreCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C0CA3C193D501D00CD7A7B /* Debug */,
+				48C0CA3D193D501D00CD7A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48C0CA3E193D501D00CD7A7B /* Build configuration list for PBXNativeTarget "MBStoreCheckAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C0CA3F193D501D00CD7A7B /* Debug */,
+				48C0CA40193D501D00CD7A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C0CA19193D501D00CD7A7B /* Project object */;
+}
